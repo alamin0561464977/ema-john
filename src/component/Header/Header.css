@@ -1,0 +1,19 @@
+header {
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 120px;
+}
+
+header div a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+header div a:hover {
+    background-color: #2b3f4d;
+}
