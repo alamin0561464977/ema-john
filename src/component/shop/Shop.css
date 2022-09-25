@@ -1,0 +1,16 @@
+.shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 8px;
+    margin: 40px;
+}
+
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card-section {
+    background-color: rgb(71, 51, 90);
+}
