@@ -3,6 +3,7 @@
     grid-template-columns: 4fr 1fr;
     gap: 8px;
     margin: 40px;
+    position: absolute;
 }
 
 .product-section {
@@ -12,5 +13,12 @@
 }
 
 .card-section {
-    background-color: rgb(71, 51, 90);
+    background-color: darkorange;
+    color: white;
+    height: 900px;
+    padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
 }
